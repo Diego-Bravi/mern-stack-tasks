@@ -2,6 +2,8 @@ const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
 
+
+const  { mongoose } = require('./database')
 const app = express();
 
 // Settings
